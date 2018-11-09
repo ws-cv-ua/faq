@@ -1,7 +1,7 @@
 ![alt text](http://web-studio.cv.ua/img/logo-dark.png "Web-Studio.cv.ua")
 
-#Installation
--
+Installation
+======
 1. To install, run
 ```
 $ composer require ws-cv-ua/faq
@@ -27,7 +27,8 @@ yii migrate -migratePath=wscvua\faq\migations
 
 > The Controller Views developed and test only for AdminLTE template. 
 
-#Usage
+Usage
+========
 ```php
 use wscvua\faq\widgets\FaqWidget;
 
