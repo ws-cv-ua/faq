@@ -1,0 +1,30 @@
+{
+  "name": "ws-cv-ua/faq",
+  "description": "F.A.Q multilanguage module (backend) and output widget (frontend)",
+  "license": "MIT",
+  "homepage": "https://github.com/ws-cv-ua/faq",
+  "stability":"stable",
+  "minimum-stability":"stable",
+  "authors": [
+    {
+      "name": "Web-Studio.cv.ua",
+      "email": "info@web-studio.cv.ua",
+      "homepage": "http://Web-Studio.cv.ua"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "yiisoft/yii2": "*",
+    "ws-cv-ua/adminlte-box": ">3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "wscvua\\faq\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1-dev"
+    }
+  }
+}
