@@ -4,7 +4,7 @@
   "license": "MIT",
   "homepage": "https://github.com/ws-cv-ua/faq",
   "stability":"stable",
-  "minimum-stability":"dev-master",
+  "minimum-stability":"dev",
   "authors": [
     {
       "name": "Web-Studio.cv.ua",
