@@ -2,11 +2,13 @@
 /**
  * @var $this \yii\web\View
  * @var $items array
+ * @var $listOptions array
  */
 
 use yii\data\ArrayDataProvider;
+use yii\helpers\ArrayHelper;
 
-echo \yii\widgets\ListView::widget([
+echo \yii\widgets\ListView::widget(ArrayHelper::merge([
     'dataProvider' => new ArrayDataProvider([
         'allModels' => $items
     ]),
@@ -18,14 +20,5 @@ echo \yii\widgets\ListView::widget([
     'itemOptions' => [
         'tag' => 'div',
     ],
-    'summary' => '<thead>' .
-        '<tr>' .
-        '<th class="date">Date</th>' .
-        '<th class="amount">Amount</th>' .
-        '<th class="detail">Detail</th>' .
-        '<th class="confirm">Confirmation (s)</th>' .
-        '</tr>' .
-        '</thead>',
-    'layout' => "{items}\n" .
-        "{pager}",
-]);
+    'layout' => "{items}\n{pager}",
+], $listOptions));
