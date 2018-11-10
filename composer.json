@@ -3,7 +3,6 @@
   "description": "F.A.Q multilanguage module (backend) and output widget (frontend)",
   "license": "MIT",
   "homepage": "https://github.com/ws-cv-ua/faq",
-  "stability":"stable",
   "minimum-stability":"dev",
   "authors": [
     {
