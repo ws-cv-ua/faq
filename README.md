@@ -9,7 +9,8 @@ $ composer require ws-cv-ua/faq
 
 2. Run migration command
 ```shell
-yii migrate -migratePath=wscvua\faq\migations
+yii migrate --migrationPath=@vendor/ws-cv-ua/faq/migrations
+
 ```
 
 3. In Backend:
